@@ -1,4 +1,0 @@
-1. Review the Day 02 lesson material.
-2. Write a small practice script.
-3. Update notes after each session.
-4. Save any useful examples in this folder.
