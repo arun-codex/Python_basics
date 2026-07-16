@@ -34,6 +34,8 @@ The course is divided into logical chapters, separating theory and practice. Cli
 | **Chapter 02 PS: Practice Set** | Hands-on exercises for Chapter 2 | [Go to Practice 2](./Chapter_02%20PS) |
 | **Chapter 03: Strings** | String operations, Slicing, String Functions, Escape Sequences | [Go to Chapter 3](./Chapter_03) |
 | **Chapter 03 PS: Practice Set** | Hands-on exercises for Chapter 3 | [Go to Practice 3](./Chapter_03%20PS) |
+| **Chapter 04: Lists** | List operations, Mutable structures, List Methods, Slicing | [Go to Chapter 4](./Chapter_04) |
+| **Chapter 04 PS: Practice Set** | Hands-on exercises for Chapter 4 | [Go to Practice 4](./Chapter_04%20PS) |
 | **Notes** | Handwritten notes and essential summaries | [Go to Notes](./Notes) |
 
 ---

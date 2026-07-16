@@ -1,17 +1,18 @@
-# Chapter 04 - Python Lists
+# Chapter 04 - Python Lists and Tuples
 
 ---
 
 # Introduction
 
 **What is this topic?**
-A List in Python is a built-in, ordered, and mutable data structure used to store collections of items. Unlike variables that can only hold a single value, a list can hold multiple values under a single name. These values can be of any data type (integers, strings, floats, booleans, or even other lists).
+A List in Python is a built-in, ordered, and mutable data structure used to store collections of items. Unlike variables that can only hold a single value, a list can hold multiple values under a single name. These values can be of any data type (integers, strings, floats, booleans, or even other lists). 
+A Tuple is very similar to a list, but with one major difference: it is **immutable**. Once created, its items cannot be changed.
 
 **Why is it important?**
 Lists are the most widely used data structure in Python. They form the foundation of data manipulation, allowing you to group related data, loop through elements, and dynamically change the collection (adding, removing, or updating items).
 
 **Why should every Python developer learn it?**
-Without lists, you cannot efficiently handle large amounts of data. Whether you are iterating over a sequence of numbers or collecting user inputs, lists are essential for writing practical, real-world Python code.
+Without lists and tuples, you cannot efficiently handle large amounts of data. Whether you are iterating over a sequence of numbers, returning multiple values from a function, or collecting user inputs, these collections are essential for writing practical, real-world Python code.
 
 **Where is it used in real-world projects?**
 - Storing records retrieved from a database.
@@ -29,7 +30,7 @@ Without lists, you cannot efficiently handle large amounts of data. Whether you 
 # Learning Objectives
 
 After completing this chapter, students should be able to:
-- Understand the definition and properties of Python lists.
+- Understand the definition and properties of Python lists and tuples.
 - Write programs to create, index, slice, and mutate lists.
 - Solve fundamental and advanced list-based interview questions.
 - Build mini projects utilizing lists for state management.
@@ -50,6 +51,9 @@ Imagine you have to store the names of 100 students. Creating 100 separate varia
 **Why use lists instead of strings?**
 While both strings and lists are sequences, strings are *immutable* (you cannot change a character in a string directly). Lists are *mutable*, making them highly flexible for data processing.
 
+**Introducing Tuples:**
+If you need an ordered sequence of elements that *should not* change (like days of the week or GPS coordinates), you use a **Tuple**. Tuples are faster than lists and protect your data from accidental modification.
+
 ---
 
 # Syntax
@@ -64,15 +68,23 @@ friends = ["Apple", "Banana", "Cherry", 5, 345.06, False]
 - `[]`: The square brackets define the structure as a list.
 - `"Apple"`, `5`, `False`: The elements inside the list. Notice the mix of strings, integers, floats, and booleans.
 
+You create a tuple by placing elements inside parentheses `()`, separated by commas.
+
+```python
+coordinates = (10.0, 20.0)
+single_tuple = (5,) # Notice the comma!
+```
+
 ---
 
 # Concepts Covered
 
-- [x] List Creation
+- [x] List Creation & Tuple Creation
 - [x] List Indexing (Positive & Negative)
 - [x] List Slicing
-- [x] List Mutability
+- [x] List Mutability vs Tuple Immutability
 - [x] List Methods (append, insert, pop, remove, etc.)
+- [x] Tuple Methods (count, index)
 - [x] List Operations (Concatenation, Repetition)
 - [x] List Comprehension (Preview)
 - [x] Multidimensional Lists (Nested Lists)
