@@ -9,3 +9,5 @@ while i <= n:
     i +=1
 print(f"The sum of {n} natural numbers is : {total}")
 
+
+
