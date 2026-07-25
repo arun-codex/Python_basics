@@ -1,12 +1,7 @@
 
+# function definition
+def calc(a,b):  # parameters
+    return a + b
 
-def calc_sum(a, b):
-    sum = a + b
-    print(sum)
-    return sum
-
-
-calc_sum(5,10)
-
-
-calc_sum(2,5)
+sum = calc(5,6) # function call; arguments
+print(sum)
