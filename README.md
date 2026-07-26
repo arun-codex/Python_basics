@@ -48,6 +48,10 @@ Every chapter is designed to answer fundamental questions: *Why do I need this? 
 - [**Chapter 03: Strings**](./Chapter_03/README.md)
 - [**Chapter 04: Lists and Tuples**](./Chapter_04/README.md)
 - [**Chapter 05: Dictionary and Sets**](./Chapter_05/README.md)
+- [**Chapter 06: Conditionals (if, elif, else)**](./Chapter_06/README.md)
+- [**Chapter 07: Loops**](./Chapter_07/README.md)
+- [**Chapter 08: Functions & Recursion**](./Chapter_08/README.md)
+- [**Chapter 09: File I/O**](./Chapter_09/README.md)
 
 ---
 <div align="center">
