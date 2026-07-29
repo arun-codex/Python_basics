@@ -5,8 +5,13 @@ class Employee:
     def getInfo(self):
         print(f"The language is {self.language}. The salary is {self.salary}")
 
+    def great(self):
+        print("Good Morning")
+
 arun = Employee()
-arun.language = "JavaScript"       # This is an instance attribute 
+# arun.language = "JavaScript"       # This is an instance attribute 
 print(arun.language, arun.salary)
 arun.getInfo()
 # Employee.getInfo(arun)
+
+print(arun.great)
