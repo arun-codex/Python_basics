@@ -1,6 +1,6 @@
 '''
-5. Write a Class ‘Trainʼ which has methods to book a ticket, get status (no of seats) and get
-fare information of train running under Indian Railways.
+6. Can you change the self-parameter inside a class to something else (say “harry”)? Try
+changing self to “slf” or “harry” and see the effects.
 
 '''
 from random import randint
