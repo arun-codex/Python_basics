@@ -10,3 +10,5 @@ def http_status(status):
             return "Unknown status"
 print(http_status(200))
 print(http_status(404))
+print(http_status(500))
+print(http_status(507))
