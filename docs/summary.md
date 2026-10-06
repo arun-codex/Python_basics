@@ -13,23 +13,31 @@ exam_importance: N/A
 
 # 📈 My Learning Summary & Progress
 
-This page tracks my overall mastery of Python. I will update these metrics as I complete chapters and face difficulties.
+This page tracks actual revision progress. A chapter is not marked revised merely because material exists in the repository.
 
 ## 🏆 Completion Tracker
 
 | Chapter | Notes Read | Practice Done | Projects | Interview Ready |
 | :--- | :---: | :---: | :---: | :---: |
-| Chapter 01 | ✅ | ✅ | ⬜ | ⬜ |
+| Chapter 01 | ⬜ | ✅ | ⬜ | ⬜ |
 | Chapter 02 | ⬜ | ⬜ | ⬜ | ⬜ |
 | Chapter 03 | ⬜ | ⬜ | ⬜ | ⬜ |
 | Chapter 04 | ⬜ | ⬜ | ⬜ | ⬜ |
 | Chapter 05 | ⬜ | ⬜ | ⬜ | ⬜ |
+| Chapter 06 | ⬜ | ⬜ | ⬜ | ⬜ |
+| Chapter 07 | ⬜ | ⬜ | ⬜ | ⬜ |
+| Chapter 08 | ⬜ | ⬜ | ⬜ | ⬜ |
+| Chapter 09 | ⬜ | ⬜ | ⬜ | ⬜ |
+| Chapter 10 | ⬜ | ⬜ | ⬜ | ⬜ |
+| Chapter 11 | ⬜ | ⬜ | ⬜ | ⬜ |
+| Chapter 12 | ⬜ | ⬜ | ⬜ | ⬜ |
+| Chapter 13 | ⬜ | ⬜ | ⬜ | ⬜ |
 
 ## 🔄 Chapter Revision Tracker
 
 | Chapter | Topic | Revision Status | Confidence | Weak Areas |
 | :--- | :--- | :---: | :---: | :--- |
-| Chapter 01 | Modules, Comments & pip | ✅ Revised | 9/10 | Return value vs `print()` vs comments |
+| Chapter 01 | Modules, Comments & pip | ✅ Revised | 9/10 | Return value vs print(); comments do not affect execution |
 | Chapter 02 | Variables & Data Types | ⬜ Not revised | — | — |
 | Chapter 03 | Strings | ⬜ Not revised | — | — |
 | Chapter 04 | Lists & Tuples | ⬜ Not revised | — | — |
@@ -40,7 +48,7 @@ This page tracks my overall mastery of Python. I will update these metrics as I 
 | Chapter 09 | File I/O | ⬜ Not revised | — | — |
 | Chapter 10 | OOP Basics | ⬜ Not revised | — | — |
 | Chapter 11 | Inheritance & Polymorphism | ⬜ Not revised | — | — |
-| Chapter 12 | Exceptions & Advanced Control Flow | ⬜ Not revised | — | — |
+| Chapter 12 | Advanced Python / Control Flow & Exceptions | ⬜ Not revised | — | — |
 | Chapter 13 | Intermediate Python / Utilities | ⬜ Not revised | — | — |
 
 ## 📝 Revision Log
@@ -50,33 +58,49 @@ This page tracks my overall mastery of Python. I will update these metrics as I 
 **Confidence:** 9/10
 
 **Reviewed concepts:**
-- Modules and `import`
-- Functions inside modules
-- `pip install` vs `import`
-- Return values vs `print()`
-- `math.sqrt()`
-- `random.randint()`
-- Python comments using `#`
+- Module vs function
+- import vs pip install
+- Built-in module examples: math and random
+- math.sqrt() and random.randint()
+- Return value vs print()
+- Python comments using #
 
 **Practical work completed:**
-- Wrote a square-root program using `math.sqrt()`.
-- Correctly reasoned through a `random.randint(1, 10)` example.
-- Completed final recall test.
+- Wrote a square-root program using math.sqrt().
+- Correctly reasoned through random.randint(1, 10).
+- Completed concept and final recall tests.
+
+**Not claimed as completed:**
+- All Chapter 01 notes were not marked as read.
+- External package installation was not marked as completed.
 
 **Weak area to revisit:**
-- Distinguishing a returned value from output produced by `print()`, and remembering that comments do not affect execution.
+- Distinguishing a returned value from output produced by print(), and remembering that comments do not affect execution.
+
+## 🧭 Current Study Position
+
+**Current chapter:** Chapter 02 — Variables & Data Types  
+**Overall revision progress:** **1 / 13 chapters revised**
+
+## 🧱 Repository Structure Audit
+
+- Chapters 01–13 are present in the repository.
+- Chapters 01–05 and 09 have a fuller documentation/dashboard structure.
+- Chapters 06–08 and 10–13 currently contain code/practice material without the same full documentation dashboard structure.
+- Central navigation files now list all 13 chapters.
+- Revision status is intentionally separate from repository-content availability.
 
 ## 💪 Strengths & Weaknesses
 
 ### 🟢 Strong Topics
-*(Topics I can explain and code without looking at syntax)*
-- Chapter 01: Modules, imports, functions, pip, and comments
-- Using module functions such as `math.sqrt()` and `random.randint()`
+- Chapter 01 module/function/import concepts
+- math.sqrt() and random.randint() usage
+- pip install vs import
+- Basic comment behavior
 
 ### 🔴 Weak Topics
-*(Topics I struggle with or need more revision)*
-- Return value vs `print()` vs comments
-- More topics will be added during chapter revisions
+- Return value vs print()
+- Comment behavior vs executable code
 
 ## 🔄 Revision Rules
 
@@ -86,9 +110,6 @@ A chapter is marked **Revised** only after:
 3. Mistake and weak-area check
 4. Confidence score
 5. Revision record update
-
-### Overall Revision Progress
-**1 / 13 chapters revised**
 
 ---
 
