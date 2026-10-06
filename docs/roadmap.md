@@ -8,42 +8,65 @@ interview_importance: N/A
 exam_importance: N/A
 ---
 
-← [Index](./index.md) | 🏠 [Home](../README.md) | [Summary](./summary.md) →
-[Index](./index.md) | [Summary](./summary.md) | [Resources](./resources.md)
+← [Index](./index.md) | 🏠 [Home](../README.md) | [Summary](./summary.md)
 
 # 🛣️ Python Learning Roadmap
 
-This roadmap is designed to guide you step-by-step from zero knowledge to intermediate mastery.
+This roadmap reflects the learning material currently present in the repository. It does not claim that a chapter is mastered.
 
-```mermaid
-graph TD
-    A[Chapter 01: Modules & Comments] --> B[Chapter 02: Variables & Data Types]
-    B --> C[Chapter 03: Strings]
-    C --> D[Chapter 04: Lists & Tuples]
-    D --> E[Chapter 05: Dictionary & Sets]
-    E --> F[Chapter 06: Conditionals]
-    F --> G[Chapter 07: Loops]
-    G --> H[Chapter 08: Functions]
-    H --> I[Chapter 09: File I/O]
-    I --> J[Chapter 10: OOP Basics]
-    J --> K[Chapter 11: Inheritance & Polymorphism]
-```
+## 📚 Repository Learning Sequence
 
-## 📊 Phase 1: Core Fundamentals
+| Chapter | Topic | Current Status |
+| :--- | :--- | :--- |
+| 01 | Modules, Comments & pip | Revised |
+| 02 | Variables & Data Types | Revision pending |
+| 03 | Strings | Revision pending |
+| 04 | Lists & Tuples | Revision pending |
+| 05 | Dictionary & Sets | Revision pending |
+| 06 | Conditionals | Material present; revision pending |
+| 07 | Loops | Material present; revision pending |
+| 08 | Functions & Recursion | Material present; revision pending |
+| 09 | File I/O | Material present; revision pending |
+| 10 | OOP Basics | Material present; revision pending |
+| 11 | Inheritance & Polymorphism | Material present; revision pending |
+| 12 | Advanced Python / Control Flow & Exceptions | Material present; revision pending |
+| 13 | Intermediate Python / Utilities | Material present; revision pending |
 
-| Chapter | Topic | Difficulty | Estimated Time | Expected Outcomes |
-| :--- | :--- | :--- | :--- | :--- |
-| **01** | Modules & Comments | ⭐☆☆☆☆ | 2 Hours | Understand REPL, pip, and basic syntax. |
-| **02** | Variables & Data Types | ⭐☆☆☆☆ | 3 Hours | Memory concepts, types, and operators. |
-| **03** | Strings | ⭐⭐☆☆☆ | 4 Hours | String slicing, methods, and immutability. |
-| **04** | Lists & Tuples | ⭐⭐☆☆☆ | 5 Hours | Mutable vs Immutable data structures. |
-| **05** | Dictionary & Sets | ⭐⭐⭐☆☆ | 5 Hours | Key-value pairs, hashing, and set logic. |
+## 📊 Phase 1 — Core Fundamentals
 
-## 🧠 Phase 2: Control Flow *(Upcoming)*
-*To be added once the foundation is solid.*
-- Conditionals (`if/elif/else`)
-- Loops (`for/while`)
+1. Modules, Comments & pip
+2. Variables & Data Types
+3. Strings
+4. Lists & Tuples
+5. Dictionary & Sets
+
+## 🧠 Phase 2 — Control Flow & Core Programming
+
+6. Conditionals
+7. Loops
+8. Functions & Recursion
+9. File I/O
+
+## 🧱 Phase 3 — OOP & Intermediate Python
+
+10. OOP Basics
+11. Inheritance & Polymorphism
+12. Advanced Python / Control Flow & Exceptions
+13. Intermediate Python / Utilities
+
+## 🔄 Revision Workflow
+
+For each chapter:
+
+1. Recall the concepts without looking at notes.
+2. Solve practical questions.
+3. Debug mistakes.
+4. Record weak areas.
+5. Give a confidence score.
+6. Update the revision tracker.
+
+Current revision progress: **1 / 13 chapters revised**.
 
 ---
-### Next Recommended Step
-Check your progress on the **[Summary Page](./summary.md)** or dive straight into **[Chapter 01](../Chapter_01/README.md)**.
+
+Next: [Chapter 02 — Variables & Data Types](../Chapter_02/readme.md)
