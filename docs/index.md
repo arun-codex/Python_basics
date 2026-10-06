@@ -8,77 +8,87 @@ interview_importance: High
 exam_importance: High
 ---
 
-← [Previous Chapter](../README.md) | 🏠 [Home](../README.md) | [Next Chapter](./roadmap.md) →
-[Roadmap](./roadmap.md) | [Summary](./summary.md) | [Resources](./resources.md)
+← [Home](../README.md) | [Roadmap](./roadmap.md) | [Summary](./summary.md)
 
 # 📖 Repository Index
 
-Welcome to the central index of the **Complete Python Beginner to Intermediate** learning repository. 
+This index reflects the chapter material currently present in the repository.
 
-Every chapter is modularized. Use this directory to instantly jump to specific notes, practice sets, or interview preparation material.
+## 📚 Chapters
 
----
+### Chapter 01: Modules, Comments & pip
+[Open Chapter 01](../Chapter_01/readme.md)
 
-## 📚 Table of Contents
+Supporting material: Notes, Cheat Sheet, Practice, Interview Prep, Projects, Flashcards, Resources, and Practice Set.
 
-### [Chapter 01: Modules, Comments & pip](../Chapter_01/README.md)
-- 📝 [Detailed Notes](../Chapter_01/docs/notes.md)
-- ⚡ [Cheat Sheet](../Chapter_01/docs/cheatsheet.md)
-- 🏋️ [Practice](../Chapter_01/docs/practice.md)
-- 🎤 [Interview Prep](../Chapter_01/docs/interview.md)
-- 🚀 [Projects](../Chapter_01/docs/projects.md)
-- 🧠 [Flashcards](../Chapter_01/docs/flashcards.md)
-- 🔗 [Resources](../Chapter_01/docs/resources.md)
-- 🧩 [Practice Set Dashboard](../Chapter_01%20PS/README.md)
+### Chapter 02: Variables & Data Types
+[Open Chapter 02](../Chapter_02/readme.md)
 
-### [Chapter 02: Variables & Data Types](../Chapter_02/README.md)
-- 📝 [Detailed Notes](../Chapter_02/docs/notes.md)
-- ⚡ [Cheat Sheet](../Chapter_02/docs/cheatsheet.md)
-- 🏋️ [Practice](../Chapter_02/docs/practice.md)
-- 🎤 [Interview Prep](../Chapter_02/docs/interview.md)
-- 🚀 [Projects](../Chapter_02/docs/projects.md)
-- 🧠 [Flashcards](../Chapter_02/docs/flashcards.md)
-- 🔗 [Resources](../Chapter_02/docs/resources.md)
-- 🧩 [Practice Set Dashboard](../Chapter_02%20PS/README.md)
+Supporting material: Notes, Cheat Sheet, Practice, Interview Prep, Projects, Flashcards, Resources, and Practice Set.
 
-### [Chapter 03: Strings](../Chapter_03/README.md)
-- 📝 [Detailed Notes](../Chapter_03/docs/notes.md)
-- ⚡ [Cheat Sheet](../Chapter_03/docs/cheatsheet.md)
-- 🏋️ [Practice](../Chapter_03/docs/practice.md)
-- 🎤 [Interview Prep](../Chapter_03/docs/interview.md)
-- 🚀 [Projects](../Chapter_03/docs/projects.md)
-- 🧠 [Flashcards](../Chapter_03/docs/flashcards.md)
-- 🔗 [Resources](../Chapter_03/docs/resources.md)
-- 🧩 [Practice Set Dashboard](../Chapter_03%20PS/README.md)
+### Chapter 03: Strings
+[Open Chapter 03](../Chapter_03/readme.md)
 
-### [Chapter 04: Lists and Tuples](../Chapter_04/README.md)
-- 📝 [Detailed Notes](../Chapter_04/docs/notes.md)
-- ⚡ [Cheat Sheet](../Chapter_04/docs/cheatsheet.md)
-- 🏋️ [Practice](../Chapter_04/docs/practice.md)
-- 🎤 [Interview Prep](../Chapter_04/docs/interview.md)
-- 🚀 [Projects](../Chapter_04/docs/projects.md)
-- 🧠 [Flashcards](../Chapter_04/docs/flashcards.md)
-- 🔗 [Resources](../Chapter_04/docs/resources.md)
-- 🧩 [Practice Set Dashboard](../Chapter_04%20PS/README.md)
+Supporting material: Notes, Cheat Sheet, Practice, Interview Prep, Projects, Flashcards, Resources, and Practice Set.
 
-### [Chapter 05: Dictionary and Sets](../Chapter_05/README.md)
-- 📝 [Detailed Notes](../Chapter_05/docs/notes.md)
-- ⚡ [Cheat Sheet](../Chapter_05/docs/cheatsheet.md)
-- 🏋️ [Practice](../Chapter_05/docs/practice.md)
-- 🎤 [Interview Prep](../Chapter_05/docs/interview.md)
-- 🚀 [Projects](../Chapter_05/docs/projects.md)
-- 🧠 [Flashcards](../Chapter_05/docs/flashcards.md)
-- 🔗 [Resources](../Chapter_05/docs/resources.md)
-- 🧩 [Practice Set Dashboard](../Chapter_05%20PS/README.md)
+### Chapter 04: Lists and Tuples
+[Open Chapter 04](../Chapter_04/README.md)
 
----
+Supporting material: Notes, Cheat Sheet, Practice, Interview Prep, Projects, Flashcards, Resources, and Practice Set.
+
+### Chapter 05: Dictionary and Sets
+[Open Chapter 05](../Chapter_05/README.md)
+
+Supporting material: Notes, Cheat Sheet, Practice, Interview Prep, Projects, Flashcards, Resources, and Practice Set.
+
+### Chapter 06: Conditionals
+[Open Chapter 06](../Chapter_06/)
+
+Current code includes conditionals, if/elif/else, multiple if statements, and a quick quiz.
+
+### Chapter 07: Loops
+[Open Chapter 07](../Chapter_07/)
+
+Current code includes for loops, while loops, list iteration, for/else, break, continue, and pass.
+
+### Chapter 08: Functions & Recursion
+[Open Chapter 08](../Chapter_08/)
+
+Current code includes functions, arguments, default arguments, recursion, and function/recursion understanding exercises.
+
+### Chapter 09: File I/O
+[Open Chapter 09](../Chapter_09/README.md)
+
+Supporting material: Notes, Cheat Sheet, Practice, Interview Prep, Flashcards, Projects, Resources, and Practice Set.
+
+### Chapter 10: OOP Basics
+[Open Chapter 10](../Chapter_10/)
+
+Current code includes classes and class/instance attribute examples.
+
+### Chapter 11: Inheritance & Polymorphism
+[Open Chapter 11](../Chapter_11/)
+
+Current code includes inheritance/polymorphism-related examples, properties, and operator overloading.
+
+### Chapter 12: Advanced Python / Control Flow & Exceptions
+[Open Chapter 12](../Chapter_12/)
+
+Current code includes the walrus operator, match/case, dictionary merging, exceptions, raising exceptions, try/else/finally, main/global concepts, enumerate, and list comprehensions.
+
+### Chapter 13: Intermediate Python / Utilities
+[Open Chapter 13](../Chapter_13/)
+
+Current code includes virtual environments, lambda, join, formatting, map/filter/reduce, and requirements.txt.
 
 ## 📌 Global Links
+
 - [Learning Roadmap](./roadmap.md)
 - [Personal Summary & Progress](./summary.md)
 - [External Resources](./resources.md)
 - [Original PDF Notes](../Notes/)
 
+> **Revision rule:** A chapter being present in the repository does not mean it has been revised. Revision status is maintained separately in the Summary page.
+
 ---
-### Next Recommended Step
-Check the **[Roadmap](./roadmap.md)** to see the current learning trajectory and upcoming chapters!
+Next: [Summary & Progress](./summary.md)
