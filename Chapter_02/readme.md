@@ -13,8 +13,8 @@ exam_importance: High
 
 # 📖 Chapter 02: Variables & Data Types
 
-> [!NOTE]  
-> **Chapter Dashboard**  
+> [!NOTE]
+> **Chapter Dashboard**
 > This page is your navigation hub. All detailed notes, practice problems, and interview questions are separated into dedicated files to optimize your learning workflow.
 
 ## 🎯 Overview
@@ -28,14 +28,8 @@ This chapter introduces the fundamental building blocks of Python. You will lear
 - Understand the `type()` function and type conversion (typecasting).
 - Capture user input using the `input()` function.
 
-## ⚠️ Prerequisites
-- Writing a basic `.py` script (Chapter 01)
-- Running a script in the terminal (Chapter 01)
-
 ## 📂 Chapter Navigation
-Dive into the actual material by clicking the links below:
-
-- 📝 [**The Textbook: Detailed Notes**](./docs/notes.md) *(Start here!)*
+- 📝 [**The Textbook: Detailed Notes**](./docs/notes.md)
 - ⚡ [**Cheat Sheet & Quick Revision**](./docs/cheatsheet.md)
 - 🏋️ [**Practice Problems**](./docs/practice.md)
 - 🎤 [**Interview & Exam Prep**](./docs/interview.md)
@@ -43,6 +37,7 @@ Dive into the actual material by clicking the links below:
 - 🚀 [**Mini Projects**](./docs/projects.md)
 - 🔗 [**External Resources**](./docs/resources.md)
 - 🧩 [**Practice Set Dashboard**](../Chapter_02%20PS/README.md)
+- 🧠 [**Revision Questions**](../Revision_Question/Chapter_02/)
 
 ## 💻 Existing Code Files
 - [`01_Variables.py`](./01_Variables.py)
@@ -54,26 +49,59 @@ Dive into the actual material by clicking the links below:
 
 ## 📈 Study Workflow & Progress Checklist
 
-Use this checklist to ensure you have thoroughly mastered the chapter.
+- [ ] Read Detailed Notes.
+- [ ] Memorized variable naming rules.
+- [ ] Ran all 4 existing code files.
+- [ ] Solved Easy Problems.
+- [ ] Built the Mini Project.
+- [ ] Completed 15-Minute Revision.
+- [ ] Checked Interview Prep.
 
-- [ ] Read [Detailed Notes](./docs/notes.md).
-- [ ] Memorized the variable naming rules.
-- [ ] Ran all 4 existing code files in this folder.
-- [ ] Solved Easy Problems in [Practice](./docs/practice.md).
-- [ ] Built the Mini Project in [Projects](./docs/projects.md).
-- [ ] Completed 15-Minute Revision using [Cheat Sheet](./docs/cheatsheet.md).
-- [ ] Checked the [Interview Prep](./docs/interview.md) for Typecasting traps.
+## 🔄 Revision Progress
+
+### Level 01 — Basic
+**Status:** ✅ Passed
+
+Covered:
+- Variables
+- Variable naming rules
+- Basic data types
+- Arithmetic operators
+- Assignment and comparison operators
+- `type()`
+- `input()`
+- Integer conversion
+- Mini challenge using name + age
+
+### Level 02 — Intermediate
+**Status:** 🟡 In Progress
+
+Completed attempts:
+- Arithmetic output prediction
+- Data-type prediction
+- `input()` type conversion
+- `int()` conversion
+- `=` vs `==`
+- Boolean comparisons
+- Calculator program
+- Adult-checker program
+
+Remaining:
+- Logical operators: `and`, `or`, `not`
+- Complete variable-naming validation
+
+### Current Weak Areas
+- Exact Python `type()` display
+- `%` remainder vs division
+- `input()` always returning `str`
+- Logical operators and complete variable naming rules
 
 ---
 
 ## 📊 Self-Assessment
 
-Before moving on, honestly rate yourself:
-- **Knowledge Checklist Completed:** [ ] Yes / [ ] No
-- **Confidence Score (1-10):** _____
-- **Weak Areas:** ________________________
-- **Mistakes I Made:** ____________________
-
----
-### Next Recommended Step
-Dive into the **[Detailed Notes](./docs/notes.md)** to begin learning!
+**Chapter 02 revision status:** 🟡 In Progress
+**Level 01:** ✅ Passed
+**Level 02:** 🟡 In Progress
+**Confidence score:** Not assigned yet
+**Next step:** Finish Level 02 Questions 7–8, then review mistakes before Level 03.

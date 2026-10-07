@@ -20,7 +20,7 @@ This page tracks actual revision progress. A chapter is not marked revised merel
 | Chapter | Notes Read | Practice Done | Projects | Interview Ready |
 | :--- | :---: | :---: | :---: | :---: |
 | Chapter 01 | ⬜ | ✅ | ⬜ | ⬜ |
-| Chapter 02 | ⬜ | ⬜ | ⬜ | ⬜ |
+| Chapter 02 | ⬜ | 🟡 | ⬜ | ⬜ |
 | Chapter 03 | ⬜ | ⬜ | ⬜ | ⬜ |
 | Chapter 04 | ⬜ | ⬜ | ⬜ | ⬜ |
 | Chapter 05 | ⬜ | ⬜ | ⬜ | ⬜ |
@@ -38,7 +38,7 @@ This page tracks actual revision progress. A chapter is not marked revised merel
 | Chapter | Topic | Revision Status | Confidence | Weak Areas |
 | :--- | :--- | :---: | :---: | :--- |
 | Chapter 01 | Modules, Comments & pip | ✅ Revised | 9/10 | Return value vs print(); comments do not affect execution |
-| Chapter 02 | Variables & Data Types | ⬜ Not revised | — | — |
+| Chapter 02 | Variables & Data Types | 🟡 In Progress | — | Exact type output; % remainder; input() returns str; logical operators; variable naming |
 | Chapter 03 | Strings | ⬜ Not revised | — | — |
 | Chapter 04 | Lists & Tuples | ⬜ Not revised | — | — |
 | Chapter 05 | Dictionary & Sets | ⬜ Not revised | — | — |
@@ -53,54 +53,34 @@ This page tracks actual revision progress. A chapter is not marked revised merel
 
 ## 📝 Revision Log
 
-### Chapter 01 — Modules, Comments & pip
-**Status:** ✅ Revised  
-**Confidence:** 9/10
+### Chapter 02 — Variables & Data Types
+**Status:** 🟡 In Progress
 
-**Reviewed concepts:**
-- Module vs function
-- import vs pip install
-- Built-in module examples: math and random
-- math.sqrt() and random.randint()
-- Return value vs print()
-- Python comments using #
+**Today's revision:**
+- Completed Level 01 Basic revision.
+- Completed the Level 01 name/age mini challenge using `input()`, `int()`, variables, and arithmetic.
+- Started Level 02 Intermediate revision.
+- Successfully practiced arithmetic output prediction, type conversion, `=` vs `==`, Boolean comparisons, and small programs.
+- Built a two-number calculator.
+- Built an adult-checker using a comparison operator.
 
-**Practical work completed:**
-- Wrote a square-root program using math.sqrt().
-- Correctly reasoned through random.randint(1, 10).
-- Completed concept and final recall tests.
+**Corrections identified:**
+- `10 % 3` returns remainder `1`, not a division result.
+- `type()` displays Python type objects such as `<class 'int'>`.
+- `None` has type `NoneType`.
+- Age 18 should be treated as adult in the exercise, so use `>= 18`.
 
-**Not claimed as completed:**
-- All Chapter 01 notes were not marked as read.
-- External package installation was not marked as completed.
-
-**Weak area to revisit:**
-- Distinguishing a returned value from output produced by print(), and remembering that comments do not affect execution.
+**Still incomplete:**
+- Level 02 logical-operator question.
+- Level 02 complete variable-naming validation.
+- Chapter 02 confidence score not assigned.
 
 ## 🧭 Current Study Position
 
-**Current chapter:** Chapter 02 — Variables & Data Types  
-**Overall revision progress:** **1 / 13 chapters revised**
-
-## 🧱 Repository Structure Audit
-
-- Chapters 01–13 are present in the repository.
-- Chapters 01–05 and 09 have a fuller documentation/dashboard structure.
-- Chapters 06–08 and 10–13 currently contain code/practice material without the same full documentation dashboard structure.
-- Central navigation files now list all 13 chapters.
-- Revision status is intentionally separate from repository-content availability.
-
-## 💪 Strengths & Weaknesses
-
-### 🟢 Strong Topics
-- Chapter 01 module/function/import concepts
-- math.sqrt() and random.randint() usage
-- pip install vs import
-- Basic comment behavior
-
-### 🔴 Weak Topics
-- Return value vs print()
-- Comment behavior vs executable code
+**Current chapter:** Chapter 02 — Variables & Data Types
+**Current revision level:** Level 02 — Intermediate
+**Overall revision progress:** **1 / 13 chapters fully revised**
+**Current chapter progress:** Level 01 passed; Level 02 in progress.
 
 ## 🔄 Revision Rules
 
@@ -110,8 +90,3 @@ A chapter is marked **Revised** only after:
 3. Mistake and weak-area check
 4. Confidence score
 5. Revision record update
-
----
-
-### Next Recommended Step
-Continue with **Chapter 02 — Variables & Data Types**.
