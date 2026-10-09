@@ -38,7 +38,7 @@ This page tracks actual revision progress. A chapter is not marked revised merel
 | Chapter | Topic | Revision Status | Confidence | Weak Areas |
 | :--- | :--- | :---: | :---: | :--- |
 | Chapter 01 | Modules, Comments & pip | ✅ Revised | 9/10 | Return value vs print(); comments do not affect execution |
-| Chapter 02 | Variables & Data Types | 🟡 In Progress | — | Exact type output; % remainder; input() returns str; logical operators; variable naming |
+| Chapter 02 | Variables & Data Types | 🟡 In Progress | — | Exact type output; % remainder; input() returns str; variable naming |
 | Chapter 03 | Strings | ⬜ Not revised | — | — |
 | Chapter 04 | Lists & Tuples | ⬜ Not revised | — | — |
 | Chapter 05 | Dictionary & Sets | ⬜ Not revised | — | — |
@@ -54,33 +54,31 @@ This page tracks actual revision progress. A chapter is not marked revised merel
 ## 📝 Revision Log
 
 ### Chapter 02 — Variables & Data Types
-**Status:** 🟡 In Progress
+**Status:** 🟡 In Progress — paused on 2026-10-09
 
-**Today's revision:**
-- Completed Level 01 Basic revision.
-- Completed the Level 01 name/age mini challenge using `input()`, `int()`, variables, and arithmetic.
-- Started Level 02 Intermediate revision.
-- Successfully practiced arithmetic output prediction, type conversion, `=` vs `==`, Boolean comparisons, and small programs.
-- Built a two-number calculator.
-- Built an adult-checker using a comparison operator.
+**Latest session:**
+- Continued Level 02 Intermediate revision.
+- Correctly predicted all three logical-operator outputs: `True`, `True`, `False`.
+- Variable-naming answer was partially correct: correctly identified `name` and `user_name` as valid and recognized that a name cannot start with a digit.
+- Needs to correct the misconception that a variable name cannot begin with an underscore.
+- Needs to remember that `class` is a reserved keyword and hyphens are not allowed in variable names.
 
-**Corrections identified:**
-- `10 % 3` returns remainder `1`, not a division result.
-- `type()` displays Python type objects such as `<class 'int'>`.
-- `None` has type `NoneType`.
-- Age 18 should be treated as adult in the exercise, so use `>= 18`.
+**Next time:**
+1. Revisit variable-naming rules and answer Question 8 again.
+2. Complete a short mixed challenge.
+3. Review any mistakes and assign a confidence score only after the check.
 
 **Still incomplete:**
-- Level 02 logical-operator question.
-- Level 02 complete variable-naming validation.
-- Chapter 02 confidence score not assigned.
+- Chapter 02 Level 02 variable-naming validation.
+- Mixed challenge and confidence score.
+- Chapter 02 remains in progress; do not mark it fully revised yet.
 
 ## 🧭 Current Study Position
 
-**Current chapter:** Chapter 02 — Variables & Data Types
-**Current revision level:** Level 02 — Intermediate
-**Overall revision progress:** **1 / 13 chapters fully revised**
-**Current chapter progress:** Level 01 passed; Level 02 in progress.
+**Current chapter:** Chapter 02 — Variables & Data Types  
+**Current revision level:** Level 02 — Intermediate  
+**Overall revision progress:** **1 / 13 chapters fully revised**  
+**Current chapter progress:** Level 01 passed; Level 02 in progress and paused.
 
 ## 🔄 Revision Rules
 
