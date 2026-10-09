@@ -74,7 +74,7 @@ Covered:
 - Mini challenge using name + age
 
 ### Level 02 — Intermediate
-**Status:** 🟡 In Progress
+**Status:** 🟡 In Progress — paused for later
 
 Completed attempts:
 - Arithmetic output prediction
@@ -85,16 +85,18 @@ Completed attempts:
 - Boolean comparisons
 - Calculator program
 - Adult-checker program
+- Logical-operator prediction (Question 7: all three answers correct)
 
-Remaining:
-- Logical operators: `and`, `or`, `not`
-- Complete variable-naming validation
+Still to revisit:
+- Variable naming rules (Question 8 was partially correct)
+- Short mixed challenge and confidence check
 
 ### Current Weak Areas
 - Exact Python `type()` display
 - `%` remainder vs division
 - `input()` always returning `str`
-- Logical operators and complete variable naming rules
+- Leading underscore is allowed in variable names
+- `class` is a reserved keyword; hyphens are not allowed in variable names
 
 ---
 
@@ -104,4 +106,4 @@ Remaining:
 **Level 01:** ✅ Passed
 **Level 02:** 🟡 In Progress
 **Confidence score:** Not assigned yet
-**Next step:** Finish Level 02 Questions 7–8, then review mistakes before Level 03.
+**Next step:** Resume with variable-naming correction, then complete a mixed challenge.
