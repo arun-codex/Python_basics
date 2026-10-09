@@ -75,13 +75,12 @@
 
 ### Revision Status
 
-**Completed so far:** Questions 1–6, 9, and 10 were attempted.
+**Attempted:** Questions 1–8, 9, and 10 were previously recorded as attempted; the latest live session specifically reviewed Questions 7 and 8.
 
-**Still to complete:** Questions 7 and 8.
+**Latest answers — 2026-10-09:**
+- **Question 7:** All three logical-operator outputs correct: `True`, `True`, `False`.
+- **Question 8:** Partially correct. Correctly identified `name` and `user_name` as valid, and correctly recognized that `2score` cannot start with a digit. Needs correction on `_age` (valid; leading underscores are allowed), and `class` (invalid because it is a reserved keyword). Also needs to identify hyphens as invalid in variable names.
 
-**Observed weak areas:**
-- Exact Boolean/logical-operator reasoning
-- Complete variable-naming rule recall
-- Exact output formatting vs conceptual correctness
+**Still to complete:** Correct the variable-naming rules, then do a short mixed challenge and confidence check.
 
-**Result:** Level 02 — In Progress.
+**Result:** Level 02 — In Progress. Revision paused at the user's request; resume later.
