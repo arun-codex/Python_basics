@@ -54,23 +54,29 @@ This page tracks actual revision progress. A chapter is not marked revised merel
 ## 📝 Revision Log
 
 ### Chapter 02 — Variables & Data Types
-**Status:** 🟡 In Progress — paused on 2026-10-09
+**Status:** 🟡 In Progress — latest session on 2026-10-21
 
-**Latest session:**
-- Continued Level 02 Intermediate revision.
-- Correctly predicted all three logical-operator outputs: `True`, `True`, `False`.
-- Variable-naming answer was partially correct: correctly identified `name` and `user_name` as valid and recognized that a name cannot start with a digit.
-- Needs to correct the misconception that a variable name cannot begin with an underscore.
-- Needs to remember that `class` is a reserved keyword and hyphens are not allowed in variable names.
+**Latest session (2026-10-21):**
+- Correctly built an interactive average calculator using `float(input(...))` and `(a + b) / 2`.
+- Correctly identified that `input()` returns `str` and that `+` joins two strings (for example, `"10" + "20"` produces `"1020"`).
+- Correctly fixed numeric addition by converting both inputs with `int()`.
+- Practised `type()` and conversion from `str` to `float`; the concept was understood, but exact `type()` output still needs precision.
+- Output prediction needs more practice: for `x = "10"` and `y = 5`, `int(x) + y` is `15` and `float(x) + y` is `15.0` (not `50`/`50.0`).
+- Began `try`/`except ValueError` input validation. The initial attempt placed input conversions outside `try`; the corrected structure was provided, but the user has not yet confirmed running it or explained why conversions must be inside `try`.
+
+**Earlier Level 02 items still pending:**
+- Revisit variable-naming rules: `_name` is valid; `class` is a keyword; hyphens and spaces are not allowed.
+- Complete a short mixed challenge and assign a confidence score only after checking the results.
 
 **Next time:**
-1. Revisit variable-naming rules and answer Question 8 again.
-2. Complete a short mixed challenge.
-3. Review any mistakes and assign a confidence score only after the check.
+1. Run the `try`/`except ValueError` version with valid and invalid input and explain why conversion must be inside `try`.
+2. Revisit variable-naming rules.
+3. Complete a short mixed challenge, review mistakes, and assign a confidence score.
 
 **Still incomplete:**
-- Chapter 02 Level 02 variable-naming validation.
-- Mixed challenge and confidence score.
+- `try`/`except ValueError` validation test.
+- Variable-naming validation and mixed challenge.
+- Confidence score.
 - Chapter 02 remains in progress; do not mark it fully revised yet.
 
 ## 🧭 Current Study Position
