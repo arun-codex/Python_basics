@@ -38,7 +38,7 @@ This page tracks actual revision progress. A chapter is not marked revised merel
 | Chapter | Topic | Revision Status | Confidence | Weak Areas |
 | :--- | :--- | :---: | :---: | :--- |
 | Chapter 01 | Modules, Comments & pip | ✅ Revised | 9/10 | Return value vs print(); comments do not affect execution |
-| Chapter 02 | Variables & Data Types | 🟡 In Progress | — | Exact type output; % remainder; input() returns str; variable naming |
+| Chapter 02 | Variables & Data Types | 🟡 In Progress | 6/10 (self-assessed) | Exact type output; % remainder; input() returns str; variable naming; exception handling needs more independent practice |
 | Chapter 03 | Strings | ⬜ Not revised | — | — |
 | Chapter 04 | Lists & Tuples | ⬜ Not revised | — | — |
 | Chapter 05 | Dictionary & Sets | ⬜ Not revised | — | — |
@@ -56,13 +56,20 @@ This page tracks actual revision progress. A chapter is not marked revised merel
 ### Chapter 02 — Variables & Data Types
 **Status:** 🟡 In Progress — latest session on 2026-10-21
 
-**Latest session (2026-10-21):**
+**Latest session update (2026-10-21 — exception-handling revision):**
+- Wrote a working two-number division program using `float(input(...))` and separate `except ValueError` / `except ZeroDivisionError` handlers. Code was reviewed as correct; a full manual test run was not confirmed.
+- Correctly answered revision questions about invalid numeric input, division by zero, exceptions occurring outside `try`, and execution continuing after a handled exception.
+- Practised `try` / `except` / `else` / `finally`: `else` runs only when `try` completes without an exception; `finally` runs whether an exception occurs or not.
+- One initial prediction about `else` after a `ZeroDivisionError` was incorrect; corrected after tracing execution.
+- Confidence previously self-assessed at 6/10; exceptions was identified as the weakest area. Keep Chapter 02 in progress.
+
+**Earlier Level 02 session (2026-10-21):**
 - Correctly built an interactive average calculator using `float(input(...))` and `(a + b) / 2`.
 - Correctly identified that `input()` returns `str` and that `+` joins two strings (for example, `"10" + "20"` produces `"1020"`).
 - Correctly fixed numeric addition by converting both inputs with `int()`.
 - Practised `type()` and conversion from `str` to `float`; the concept was understood, but exact `type()` output still needs precision.
 - Output prediction needs more practice: for `x = "10"` and `y = 5`, `int(x) + y` is `15` and `float(x) + y` is `15.0` (not `50`/`50.0`).
-- Began `try`/`except ValueError` input validation. The initial attempt placed input conversions outside `try`; the corrected structure was provided, but the user has not yet confirmed running it or explained why conversions must be inside `try`.
+- Began `try`/`except ValueError` input validation. The initial attempt placed input conversions outside `try`; the user later demonstrated understanding that exceptions outside the associated `try` block are not caught by its handlers.
 
 **Earlier Level 02 items still pending:**
 - Revisit variable-naming rules: `_name` is valid; `class` is a keyword; hyphens and spaces are not allowed.
@@ -71,12 +78,13 @@ This page tracks actual revision progress. A chapter is not marked revised merel
 **Next time:**
 1. Run the `try`/`except ValueError` version with valid and invalid input and explain why conversion must be inside `try`.
 2. Revisit variable-naming rules.
+3. Re-run the division program with valid numbers, invalid text, and a zero divisor; then practise exceptions independently.
 3. Complete a short mixed challenge, review mistakes, and assign a confidence score.
 
 **Still incomplete:**
-- `try`/`except ValueError` validation test.
+- Confirmed manual tests of the exception-handling program.
 - Variable-naming validation and mixed challenge.
-- Confidence score.
+- Confidence reassessment after more practice.
 - Chapter 02 remains in progress; do not mark it fully revised yet.
 
 ## 🧭 Current Study Position
