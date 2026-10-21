@@ -74,29 +74,36 @@ Covered:
 - Mini challenge using name + age
 
 ### Level 02 — Intermediate
-**Status:** 🟡 In Progress — paused for later
+**Status:** 🟡 In Progress — latest practice session: 2026-10-21
 
 Completed attempts:
 - Arithmetic output prediction
 - Data-type prediction
 - `input()` type conversion
-- `int()` conversion
+- `int()` and `float()` conversion
 - `=` vs `==`
 - Boolean comparisons
 - Calculator program
 - Adult-checker program
 - Logical-operator prediction (Question 7: all three answers correct)
+- Interactive average calculator using decimal inputs
+- String concatenation vs numeric addition; fixed the calculator by converting inputs to `int`
+- Type checker: observed conversion from `str` to `float`
 
-Still to revisit:
+Still to revisit / confirm:
 - Variable naming rules (Question 8 was partially correct)
+- Run and explain the `try`/`except ValueError` input-validation example; corrected structure has been provided but not yet confirmed by a test run
 - Short mixed challenge and confidence check
 
 ### Current Weak Areas
-- Exact Python `type()` display
+- Exact Python `type()` display, including `<class 'str'>` and `<class 'float'>`
 - `%` remainder vs division
 - `input()` always returning `str`
+- String repetition vs numeric multiplication
+- Numeric addition after explicit conversion (`int("10") + 5` is `15`; `float("10") + 5` is `15.0`)
 - Leading underscore is allowed in variable names
-- `class` is a reserved keyword; hyphens are not allowed in variable names
+- `class` is a reserved keyword; hyphens and spaces are not allowed in variable names
+- Put input conversions inside `try` when catching invalid numeric input with `except ValueError`
 
 ---
 
@@ -106,4 +113,4 @@ Still to revisit:
 **Level 01:** ✅ Passed
 **Level 02:** 🟡 In Progress
 **Confidence score:** Not assigned yet
-**Next step:** Resume with variable-naming correction, then complete a mixed challenge.
+**Next step:** Confirm the `try`/`except ValueError` test, revisit variable naming, then complete a mixed challenge.
