@@ -92,7 +92,7 @@ Completed attempts:
 
 Still to revisit / confirm:
 - Variable naming rules (Question 8 was partially correct)
-- Run and explain the `try`/`except ValueError` input-validation example; corrected structure has been provided but not yet confirmed by a test run
+- Exception-handling program written and reviewed; still needs manual tests with valid input, invalid text, and a zero divisor
 - Short mixed challenge and confidence check
 
 ### Current Weak Areas
@@ -104,6 +104,9 @@ Still to revisit / confirm:
 - Leading underscore is allowed in variable names
 - `class` is a reserved keyword; hyphens and spaces are not allowed in variable names
 - Put input conversions inside `try` when catching invalid numeric input with `except ValueError`
+- `except` handles a matching exception; code after the `try/except` can continue
+- `else` runs only when `try` completes without an exception; `finally` runs either way
+- Exception handling has improved through guided questions, but independent practice and a confirmed manual test run are still needed
 
 ---
 
@@ -112,5 +115,5 @@ Still to revisit / confirm:
 **Chapter 02 revision status:** 🟡 In Progress
 **Level 01:** ✅ Passed
 **Level 02:** 🟡 In Progress
-**Confidence score:** Not assigned yet
-**Next step:** Confirm the `try`/`except ValueError` test, revisit variable naming, then complete a mixed challenge.
+**Confidence score:** 6/10 (self-assessed earlier in the session; reassess after further practice)
+**Next step:** Run the division program with valid input, invalid text, and zero; revisit variable naming; then complete a mixed challenge.
